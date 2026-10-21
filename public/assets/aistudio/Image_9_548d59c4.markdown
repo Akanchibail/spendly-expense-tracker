@@ -1,0 +1,220 @@
+---
+name: Spendly FinTech UI
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#cbdbf5'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e5eeff'
+  surface-container-high: '#dce9ff'
+  surface-container-highest: '#d3e4fe'
+  on-surface: '#0b1c30'
+  on-surface-variant: '#45464d'
+  inverse-surface: '#213145'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#76777d'
+  outline-variant: '#c6c6cd'
+  surface-tint: '#565e74'
+  primary: '#000000'
+  on-primary: '#ffffff'
+  primary-container: '#131b2e'
+  on-primary-container: '#7c839b'
+  inverse-primary: '#bec6e0'
+  secondary: '#006c49'
+  on-secondary: '#ffffff'
+  secondary-container: '#6cf8bb'
+  on-secondary-container: '#00714d'
+  tertiary: '#000000'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#40000d'
+  on-tertiary-container: '#f23d5c'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dae2fd'
+  primary-fixed-dim: '#bec6e0'
+  on-primary-fixed: '#131b2e'
+  on-primary-fixed-variant: '#3f465c'
+  secondary-fixed: '#6ffbbe'
+  secondary-fixed-dim: '#4edea3'
+  on-secondary-fixed: '#002113'
+  on-secondary-fixed-variant: '#005236'
+  tertiary-fixed: '#ffdadb'
+  tertiary-fixed-dim: '#ffb2b7'
+  on-tertiary-fixed: '#40000d'
+  on-tertiary-fixed-variant: '#92002a'
+  background: '#f8f9ff'
+  on-background: '#0b1c30'
+  surface-variant: '#d3e4fe'
+typography:
+  display-currency:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.03em
+  display-currency-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 34px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '500'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: 0.005em
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 18px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-caps:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.06em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  margin: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+The design system establishes a high-clarity, trust-centered aesthetic engineered specifically for daily personal expense tracking and financial literacy. Designed for digital-native spenders, young professionals, and conscious savers, it strips away traditional banking anxiety and replaces it with calm control, immediate readability, and tactile precision.
+
+The design philosophy balances **Modern FinTech Minimalism** with **Organic Tactility**. It pairs structural discipline—strict typographic grids, crisp borders, and generous breathing room—with friendly, hyper-smooth corner geometries (`rounded-2xl` to `rounded-3xl`) and luminous status accents. Financial data is never presented as intimidating ledger walls; instead, it is segmented into digestible, glanceable modules with micro-interactions that validate financial discipline and habit-building.
+
+## Colors
+
+The palette relies on deliberate contrast hierarchies to eliminate visual noise while spotlighting mission-critical metrics:
+
+- **Primary (`#0F172A`)**: Deep Obsidian Slate. Anchors high-priority headers, primary action buttons, focused controls, and prominent numeric totals.
+- **Secondary (`#10B981`, shaded to `#059669`)**: Energetic Emerald Mint. Expresses growth, incoming cashflow, completed savings goals, and positive delta values.
+- **Tertiary (`#F43F5E`)**: Soft Coral Rose. Signals spend velocity, budget threshold breaches, and outgoing expense deductions without feeling aggressive.
+- **Neutrals & Surfaces**:
+  - App Canvas Base: `#F8FAFC` (Slate 50)
+  - Card & Module Surfaces: `#FFFFFF` (Pure White)
+  - Structural Wells / Inset Containers: `#F1F5F9` (Slate 100)
+  - Hairline Boundaries & Dividers: `#E2E8F0` (Slate 200)
+  - Secondary Text & Metadata: `#64748B` (Slate 500)
+  - Subtle Muted Labels: `#94A3B8` (Slate 400)
+
+## Typography
+
+The design system exclusively implements **Plus Jakarta Sans** across all roles to maintain a crisp, approachable, yet geometric tech posture. 
+
+- **Numerical Hierarchy**: All monetary figures adopt tabular numerals (`tnum`) and tighter letter tracking (`-0.02em` to `-0.03em`) to prevent layout shifts when counters cycle or dynamic balances update.
+- **Case Rules**: `label-caps` is reserved exclusively for micro-groupings, dates, and secondary badge flags, rendered in uppercase with wide tracking for immediate legibility at glance speed.
+- **Hierarchy Separation**: Headers lead through medium-to-bold font weights rather than excessive scale jumps, maintaining balance on handheld form factors.
+
+## Layout & Spacing
+
+A 4-column fluid mobile grid forms the foundation of the interface, transitioning to an 8-column layout on tablets and small folding screens:
+
+- **Horizontal Canvas Margins**: Set to `1.25rem` (20px) on standard viewports (375px–430px) to maximize touch target width while preventing edge crowding.
+- **Gutters**: Fixed at `1rem` (16px) across cards, split charts, and metric pairs.
+- **Vertical Rhythm**: Layout components stack along a disciplined 8pt scale (`space-xs` = 4px, `space-sm` = 8px, `space-md` = 16px, `space-lg` = 24px, `space-xl` = 32px).
+- **Safe Area Insets**: Floating bottom navigational components float precisely `1rem` above the native iOS/Android home indicator bar.
+
+## Elevation & Depth
+
+Visual hierarchy is communicated via **layered crisp boundaries and ambient atmospheric drop-shadows**, keeping cards clean without muddiness:
+
+- **Ground Level (Base Canvas)**: Flat `#F8FAFC`, non-elevated.
+- **Level 1 (Card & Section Containers)**: Solid `#FFFFFF` fill bounded by a crisp 1px hairline border (`#E2E8F0`), supported by an ambient, diffused shadow: `0px 4px 20px -2px rgba(15, 23, 42, 0.04)`.
+- **Level 2 (Active Modals, Bottom Sheet Panels & Quick Actions)**: `#FFFFFF` fill, 1px border (`#E2E8F0`), elevated with `0px 12px 32px -4px rgba(15, 23, 42, 0.08)`.
+- **Level 3 (Floating Action Hub & Navigation Bar)**: Semi-translucent `#FFFFFF` (92% opacity with 16px background blur) paired with `0px 16px 36px -6px rgba(15, 23, 42, 0.12)` and a top boundary rim of `rgba(255, 255, 255, 0.8)`.
+
+## Shapes
+
+The interface embraces a hyper-rounded modern standard:
+- **Small Interactive Items (Chips, Badges, Tag Filters)**: Full pill geometry (`rounded-full`, 9999px).
+- **Form Controls & Inputs**: `rounded-2xl` (16px radius) for friendly finger placement.
+- **Standard Cards & Metric Modules**: `rounded-2xl` (16px to 20px).
+- **Hero Balance Panels & Modals**: `rounded-3xl` (24px to 28px) to establish a cohesive, soft container language.
+
+## Components
+
+### Buttons
+- **Primary**: Solid Deep Obsidian Slate (`#0F172A`) with white text (`#FFFFFF`), `rounded-2xl`, height: 52px. Active feedback triggers a slight scale down (`0.98`).
+- **Secondary**: Slate-tinted fill (`#F1F5F9`) with Slate 900 text (`#0F172A`) and subtle 1px border (`#E2E8F0`), `rounded-2xl`.
+- **Icon Quick-Actions**: 44x44px circular or `rounded-2xl` buttons with soft slate backgrounds and muted iconography.
+
+### Chips & Badges
+- **Pill Badges**: `rounded-full` height 28px, horizontal padding 12px.
+  - Positive / Income: 10% opacity Emerald background (`rgba(16, 185, 129, 0.1)`) with `#059669` label text.
+  - Expense / Urgent: 10% opacity Coral background (`rgba(244, 63, 94, 0.1)`) with `#E11D48` label text.
+  - Neutral / Category: `#F1F5F9` background with `#475569` text.
+
+### Expense & Transaction Lists
+- **List Items**: Clean horizontal flex containers, 64px minimum row height.
+- **Category Icon**: 44x44px rounded container (`rounded-2xl`) featuring dual-tone muted icons matching the spend category.
+- **Alignment**: Merchant name (`body-lg`, `#0F172A`) stacked above category and timestamp (`body-sm`, `#64748B`). Amounts right-aligned (`headline-sm`, tabular numerals), with positive entries prefixed with a mint `+` and negative entries rendered in neutral or rose.
+
+### Form Inputs
+- **Base State**: Background `#F8FAFC`, border 1.5px `#E2E8F0`, `rounded-2xl`, 52px height, text in `#0F172A`.
+- **Focus State**: Background `#FFFFFF`, border `#0F172A`, with a 3px ring of `rgba(15, 23, 42, 0.05)`.
+- **Amount Entry Field**: Borderless display field on canvas with dynamic cursor scaling from 32px to 48px font size.
+
+### Cards
+- **Overview Hero Card**: Deep Slate gradient or pristine white with a 1px border (`#E2E8F0`). Contains the primary balance indicator, monthly delta percentage chip, and mini line-sparkline charts.
+- **Budget Progress Card**: Features an 8px track height, `rounded-full` progress bar filled with `#10B981` (shifting to `#F43F5E` when exceeding 90% allocation).
+
+### Bottom Navigation Bar
+- **Shell**: Floating pill-dock container elevated `1rem` off screen bottom, 68px height, 16px lateral margin.
+- **Material**: Translucent milky glass (`rgba(255, 255, 255, 0.9)`), 20px backdrop-blur filter, 1px border (`rgba(226, 232, 240, 0.8)`), `rounded-full`.
+- **Center Action**: Elevated circular "Quick Log" (+) button (52px diameter) with `#0F172A` background and `#FFFFFF` icon, slightly protruding above the bar horizon.

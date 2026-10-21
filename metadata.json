@@ -1,0 +1,6 @@
+{
+  "name": "Spendly",
+  "description": "Smart personal expense tracker and budget manager with spending analytics and cash flow insights",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
